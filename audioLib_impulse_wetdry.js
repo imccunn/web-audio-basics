@@ -89,3 +89,4 @@ var someRandomAudio = audioFileLoader('anAudioFileOnTheServer.mp3');
 
 // Add a way to play/trigger the sound
 window.addEventListener('keydown', someRandomAudio.play, false);
+
