@@ -6,6 +6,7 @@ function audioFileLoader(fileDirectory) {
 	
 	// Sound object to 
 	var soundObj = {};
+	soundObj.fileDirectory = fileDirectory;
 
 	var getSound = new XMLHttpRequest();
 	getSound.open('GET', soundObj.fileDirectory, true);
